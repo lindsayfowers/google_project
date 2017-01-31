@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>GoogleApp</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+<body>
+    <header>
+      <ul id="heading">
+        <li><a href="http://gmail.com">Gmail</a></li>
+        <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=lJyLWNqjMaa4jAOV7ryQBw&ved=0EKouCBcoAQ">Images</a></li>
+        <li><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/webhp%3Fhl%3Den%26sa%3DX%26ved%3D0ahUKEwi7jsbN_OLRAhUJxmMKHVuRAloQPAgD#identifier"><button id="sign-in">Sign in</button></a></li>
+      </ul>
+
+      <script type="text/javascript">
+        function focusIt()
+        {
+          var my_search_bar = document.getElementById("search-bar");
+          my_search_bar.focus();
+        }
+
+        onload= focusIt;
+      </script>
+    </header>
+
+    <div id="main-info">
+      <div id="logo">
+        <a href="http://google.com"><img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png" width="350"></a>
+      </div>
+
+      <div id="search">
+        <input id="search-bar" type="text" name="search" />
+      </div>
+
+      <div id="search-buttons">
+        <input type="button" class="button" name="google" value="Google Search" />
+        <input type="button" class="button" name="google" value="I'm feeling lucky" />
+      </div>
+    </div>
+
+    <footer>
+      <ul id="footer-left">
+        <li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+        <li><a href="https://www.google.com/services/?fg=1#?modal_active=none">Business</a></li>
+        <li><a href="https://www.google.com/intl/en/about/">About</a></li>
+      </ul>
+    
+      <ul id="footer-right">
+        <li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+        <li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+        <li><a href="https://www.google.com/preferences?hl=en&fg=1">Settings</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
